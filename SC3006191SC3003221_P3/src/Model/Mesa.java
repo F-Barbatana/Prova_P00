@@ -1,6 +1,7 @@
 package Model;
 
 
+import java.util.Date;
 import java.util.List;
 
 public class Mesa {
@@ -11,10 +12,12 @@ public class Mesa {
     private int classificacaoEtaria;
     private int limeteJogadores;
     private Campanha campanha;
-    private String data;
+    private Date data;
+    private int code;
 
 
-    public Mesa(String nomeMestre, String emailMestre, List<Jogador> jogadores, int classificacaoEtaria, int limeteJogadores, Campanha campanha, String data) {
+
+    public Mesa(String nomeMestre, String emailMestre, List<Jogador> jogadores, int classificacaoEtaria, int limeteJogadores, Campanha campanha, Date data, int code) {
         this.nomeMestre = nomeMestre;
         this.emailMestre = emailMestre;
         Jogadores = jogadores;
@@ -22,7 +25,10 @@ public class Mesa {
         this.limeteJogadores = limeteJogadores;
         this.campanha = campanha;
         this.data = data;
+        this.code = code;
     }
+
+
 
     public String getNomeMestre() {
         return nomeMestre;
@@ -72,11 +78,19 @@ public class Mesa {
         this.campanha = campanha;
     }
 
-    public String getData() {
+    public Date getData() {
         return data;
     }
 
-    public void setData(String data) {
+    public void setData(Date data) {
         this.data = data;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
     }
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="277.0" prefWidth="812.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerCadasMesa">
+   <children>
+      <Button layoutX="669.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="Enviar" />
+      <ComboBox layoutX="304.0" layoutY="55.0" prefWidth="150.0" />
+      <Separator layoutX="464.0" layoutY="-39.0" orientation="VERTICAL" prefHeight="316.0" prefWidth="8.0" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="32.0" prefWidth="133.0" text="Campanha:">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font></Label>
+      <TextField layoutX="76.0" layoutY="55.0" prefHeight="25.0" prefWidth="182.0" />
+      <TextArea layoutX="74.0" layoutY="100.0" prefHeight="78.0" prefWidth="378.0" />
+      <TextField layoutX="388.0" layoutY="222.0" prefHeight="25.0" prefWidth="67.0" />
+      <Label layoutX="19.0" layoutY="131.0" text="Descrição:" />
+      <Label layoutX="21.0" layoutY="59.0" text="Nome:" />
+      <Label layoutX="268.0" layoutY="59.0" text="Tipo:" />
+      <Label layoutX="268.0" layoutY="226.0" text="Quantidade de Dados:" />
+      <CheckBox layoutX="67.0" layoutY="217.0" mnemonicParsing="false" text="D4" />
+      <CheckBox layoutX="146.0" layoutY="238.0" mnemonicParsing="false" text="D10" />
+      <CheckBox layoutX="67.0" layoutY="238.0" mnemonicParsing="false" text="D8" />
+      <CheckBox layoutX="214.0" layoutY="217.0" mnemonicParsing="false" text="D20" />
+      <CheckBox layoutX="214.0" layoutY="238.0" mnemonicParsing="false" text="D12" />
+      <CheckBox layoutX="146.0" layoutY="217.0" mnemonicParsing="false" text="D6" />
+      <Label layoutX="21.0" layoutY="194.0" text="Tipos de dados usado:" />
+      <Label layoutX="488.0" layoutY="59.0" text="Nome do Mestre:" />
+      <Label layoutX="488.0" layoutY="94.0" text="Email mestre:" />
+      <TextField layoutX="601.0" layoutY="55.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField layoutX="601.0" layoutY="90.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField layoutX="601.0" layoutY="123.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField layoutX="601.0" layoutY="161.0" prefHeight="25.0" prefWidth="174.0" />
+      <DatePicker layoutX="601.0" layoutY="198.0" />
+      <Label layoutX="486.0" layoutY="127.0" text="Limte de Jogadores:" />
+      <Label layoutX="485.0" layoutY="165.0" text="Faixa Etária:" />
+      <Label layoutX="488.0" layoutY="202.0" text="Data da Mesa:" />
+      <Label layoutX="483.0" layoutY="17.0" text="Mesa:">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -5,7 +5,7 @@ public enum TiposDeDados {
     Seis,
     Oito,
     Dez,
-    Dose,
+    Doze,
     Vinte;
 
 

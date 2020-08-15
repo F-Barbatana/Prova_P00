@@ -3,9 +3,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="510.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.PaginaInicial">
+<AnchorPane prefHeight="510.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PaginaInicialController">
    <children>
-      <TableView layoutX="8.0" layoutY="14.0" prefHeight="400.0" prefWidth="825.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="14.0">
+      <TableView layoutX="8.0" layoutY="14.0" prefHeight="400.0" prefWidth="825.0" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="14.0">
         <columns>
             <TableColumn prefWidth="113.0" text="Data de realização" />
             <TableColumn prefWidth="173.0" text="Campanha" />
@@ -15,10 +15,12 @@
             <TableColumn prefWidth="145.0" text="Tipo do Rpg" />
         </columns>
       </TableView>
-      <Button layoutX="703.0" layoutY="471.0" mnemonicParsing="false" text="Entrar em uma mesa" />
-      <Button layoutX="725.0" layoutY="430.0" mnemonicParsing="false" text="Exibir Jogadores" />
-      <Button layoutX="32.0" layoutY="471.0" mnemonicParsing="false" text="Cadastrar Mesa" />
-      <Button layoutX="141.0" layoutY="471.0" mnemonicParsing="false" text="Deletar Mesa" />
-      <Button layoutX="237.0" layoutY="471.0" mnemonicParsing="false" text="Editar Mesa" />
+      <Button layoutX="703.0" layoutY="471.0" mnemonicParsing="false" text="Entrar em uma mesa" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+      <Button layoutX="725.0" layoutY="430.0" mnemonicParsing="false" text="Exibir Jogadores" AnchorPane.bottomAnchor="55.0" AnchorPane.rightAnchor="14.0" />
+      <Button layoutX="32.0" layoutY="471.0" mnemonicParsing="false" text="Cadastrar Mesa" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="32.0" />
+      <Button layoutX="141.0" layoutY="471.0" mnemonicParsing="false" text="Deletar Mesa" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="141.0" />
+      <Button layoutX="237.0" layoutY="471.0" mnemonicParsing="false" text="Editar Mesa" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="237.0" />
+      <TextField layoutX="213.0" layoutY="418.0" prefHeight="25.0" prefWidth="366.0" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="213.0" />
+      <Label layoutX="27.0" layoutY="422.0" text="Pesquisar por nome da campanha:" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="27.0" />
    </children>
 </AnchorPane>
