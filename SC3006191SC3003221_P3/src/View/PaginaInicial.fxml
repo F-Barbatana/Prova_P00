@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="510.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.PaginaInicial">
+   <children>
+      <TableView layoutX="8.0" layoutY="14.0" prefHeight="400.0" prefWidth="825.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="14.0">
+        <columns>
+            <TableColumn prefWidth="113.0" text="Data de realização" />
+            <TableColumn prefWidth="173.0" text="Campanha" />
+            <TableColumn prefWidth="85.0" text="Faixa Etaria" />
+          <TableColumn minWidth="0.0" prefWidth="117.0" text="Limite Jogadores" />
+          <TableColumn prefWidth="191.0" text="Mestre" />
+            <TableColumn prefWidth="145.0" text="Tipo do Rpg" />
+        </columns>
+      </TableView>
+      <Button layoutX="703.0" layoutY="471.0" mnemonicParsing="false" text="Entrar em uma mesa" />
+      <Button layoutX="725.0" layoutY="430.0" mnemonicParsing="false" text="Exibir Jogadores" />
+      <Button layoutX="32.0" layoutY="471.0" mnemonicParsing="false" text="Cadastrar Mesa" />
+      <Button layoutX="141.0" layoutY="471.0" mnemonicParsing="false" text="Deletar Mesa" />
+      <Button layoutX="237.0" layoutY="471.0" mnemonicParsing="false" text="Editar Mesa" />
+   </children>
+</AnchorPane>
